@@ -6,21 +6,51 @@
   <title>Privacy Policy</title>
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
   <!-- Custom CSS -->
-  <style>
-    nav{
-        position: fixed;
-        width: 100%;
-        padding: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: blanchedalmond;
-    }
+  <style>  
     /* Add your custom CSS styles here */
     body {
-      font-family: Arial, sans-serif;
-      background-color: #c4c9e9;
+     
+      background-color:#DAF7A6;
+      margin: 0;
+      padding: 0;
+      font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+    }
+    nav{
+      position: fixed;
+      top: 0;
+      width: 100%;
+      margin-top: 0;
+      background-color: #5DADE2;
+      height: 70px;
+    }
+    nav ul{
+      font-size: 20px;
+      list-style-type: none;
+      color: white;
+      font-weight: 900;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    nav ul li{
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 15px;
+      font-size: 30px;
     }
     .container {
       margin-top: 50px;
@@ -34,7 +64,7 @@
     }
     h3{
         font-weight: bolder;
-        color: white;
+        color: black;
     }
     footer{
         display: flex;
@@ -44,14 +74,56 @@
         background-color: rgb(104, 104, 104);
     }
     
+    /* Styles for h1 */
+h1 {
+  font-size: 2.5rem; /* Adjust according to your design */
+  line-height: 1.2;
+  margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+/* Styles for h3 */
+h3 {
+  font-size: 1.5rem; /* Adjust according to your design */
+  line-height: 1.3;
+  margin-bottom: 15px; /* Adjust spacing as needed */
+}
+
+/* Styles for p */
+p {
+  font-size: 1rem; /* Adjust according to your design */
+  line-height: 1.5;
+  margin-bottom: 10px; /* Adjust spacing as needed */
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  /* Adjust font sizes for smaller screens */
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  p {
+    font-size: 0.875rem;
+  }
+}
+
   </style>
 </head>
 <body>
+
+
+  <nav>
+    <ul>
+      <li>Bouncing Balls</li>
+    </ul>
+  </nav>
     
 
   <div class="container">
-    <h1 style="color: white; font-weight: bolder;">Bouncing balls</h1>
-    <h1 style="text-shadow: 0 0 50px rgb(104, 104, 104);">Privacy Policy</h1>
+    <!-- <h1 style="color: white; font-weight: bolder;">Bouncing balls</h1> -->
+    <h1 style="text-shadow: 0 0 50px rgb(104, 104, 104); margin-top: 80px;">Privacy Policy</h1>
     <p>This Privacy Policy governs the manner in which our Bouncing balls application collects, uses, maintains, and discloses information collected from users (each, a "User") of the Bouncing balls application.</p>
     
     <h3>AdMob Advertising</h3>
@@ -69,7 +141,7 @@
     <h3>Your acceptance of these terms</h3>
     <p>By using our app, you signify your acceptance of this policy. If you do not agree to this policy, please do not use our app. Your continued use of the app following the posting of changes to this policy will be deemed your acceptance of those changes.</p>
   </div>
-  <footer>
+  <footer class="mt-5">
         <a href="https://play.google.com/store/apps/details?id=com.mindflexx.bounce"><img src="./images/playstore.png" alt="download ffrom playstore"></a>
   </footer>
 
